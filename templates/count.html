@@ -1,0 +1,11 @@
+<h1>There are {{ wordlen }} words in your text</h1>
+
+<a href="{% url 'home' %}" >Start again!</a>
+
+<h1>Your Text:</h1>
+{{ fulltext }}
+<br />
+<h1>The most common word is</h1>
+{{ mostcommonword }} : {{ mostcommontime }}
+<br />
+<a href="http://127.0.0.1:8000/about" >About the web</a>
